@@ -19,8 +19,8 @@ func main() {
 	//Armado de URL de conexión
 	url := url.URL{
 		// Se utiliza WebSocket seguro (wss)
-		Scheme: "wss",
-		Host:   "ws.ifelse.io",
+		Scheme: "ws",
+		Host:   "echo.websocket.events",
 		Path:   "/",
 	}
 	log.Printf("Conectando con %s", url.String())
