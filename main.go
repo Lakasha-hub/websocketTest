@@ -18,7 +18,7 @@ func main() {
 
 	//Armado de URL de conexión
 	url := url.URL{
-		// Se utiliza WebSocket seguro (wss)
+		// Se utiliza WebSocket simple (ws)
 		Scheme: "ws",
 		Host:   "echo.websocket.events",
 		Path:   "/",
